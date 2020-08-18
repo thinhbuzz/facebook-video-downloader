@@ -1,0 +1,14 @@
+{
+  "name": "facebook-video-downloader",
+  "version": "1.0.0",
+  "description": "Facebook video downloader",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.122"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "appName": {
+    "message": "Tải video trên facebook"
+  },
+  "appDesc": {
+    "message": "Tải video trên facebook trong nhóm kín, nhóm riêng tư hoặc nhóm công khai"
+  },
+  "videoNotFound": {
+    "message": "Không tìm thấy video, hãy chắc chắn bạn đã mở bài viết có video"
+  },
+  "videoFetching": {
+    "message": "Đang tìm videos..."
+  },
+  "fetching": {
+    "message": "Tìm lại"
+  },
+  "tableVideoColumn": {
+    "message": "Video"
+  },
+  "tableQualityColumn": {
+    "message": "Chất lượng"
+  },
+  "html5VideoNotSupport": {
+    "message": "Trình duyệt không hỗ trợ video"
+  },
+  "download": {
+    "message": "Tải xuống"
+  }
+}

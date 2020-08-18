@@ -1,0 +1,29 @@
+{
+  "appName": {
+    "message": "Facebook video downloader"
+  },
+  "appDesc": {
+    "message": "Download video from private group, closed group or public group on the facebook"
+  },
+  "videoNotFound": {
+    "message": "Can't find the video, make sure you open the article containing the video."
+  },
+  "videoFetching": {
+    "message": "Fetching video..."
+  },
+  "fetching": {
+    "message": "Fetching"
+  },
+  "tableVideoColumn": {
+    "message": "Video"
+  },
+  "tableQualityColumn": {
+    "message": "Quality"
+  },
+  "html5VideoNotSupport": {
+    "message": "Your browser does not support the video tag"
+  },
+  "download": {
+    "message": "Download"
+  }
+}

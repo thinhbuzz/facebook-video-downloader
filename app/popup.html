@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-locale="appName"></title>
+    <style>
+      body {
+        font-size: 1rem;
+      }
+      .hidden {
+        display: none;
+        visibility: hidden;
+      }
+      .tools {
+        margin: 10px 0;
+      }
+      .tools > * {
+        margin-right: 10px;
+      }
+      .tools > *:last-of-type {
+        margin-right: 0;
+      }
+      .container {
+        width: auto;
+        height: auto;
+        min-width: 600px;
+        min-height: 300px;
+        max-height: 80vh;
+        max-width: 80vh;
+      }
+      .message {
+        text-align: center;
+      }
+      .message-text {
+        color: blue;
+      }
+      .message-text.error {
+        color: red;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      th.quality-column,
+      th.download-column {
+        width: 80px;
+      }
+      .video-preview {
+        max-width: 250px;
+        max-height: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tools"></div>
+      <div class="message hidden">
+        <p class="message-text"></p>
+      </div>
+      <div class="video-table">
+        <table>
+          <thead class="table-head">
+            <tr>
+              <th class="video-column" data-locale="tableVideoColumn"></th>
+              <th class="quality-column" data-locale="tableQualityColumn"></th>
+              <th class="download-column" data-locale="download"></th>
+            </tr>
+          </thead>
+          <tbody class="table-content"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
