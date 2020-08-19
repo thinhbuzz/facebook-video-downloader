@@ -7,7 +7,7 @@ function getVideos() {
   ];
   const regExp = new RegExp(`(${keys.join('|')}):\s*"([^"]+)"`, 'g');
   const scriptTags = Array.from(
-    document.body.querySelectorAll('script[nonce]')
+    document.body.querySelectorAll('script')
   )
     .filter((tag) => {
       return (
